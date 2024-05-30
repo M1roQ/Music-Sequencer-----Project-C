@@ -1,3 +1,5 @@
+#pragma once
+
 #ifndef NOTE_IO_H
 #define NOTE_IO_H
 

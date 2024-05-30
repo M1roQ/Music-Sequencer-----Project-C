@@ -133,7 +133,11 @@ The output file is a WAV audio file named as specified by the user. The project 
  - <sys/stat.h>: Provides the stat function to check file status, used to determine if a file exists.
 
 ## 7. Compilation
-To compile the program, use the following command:
+1. To go to the project directory, enter the command:
+```sh
+cd Project/Music-Sequencer\
+```
+2. To compile the program, use the following command:
 ```sh
 gcc -o sequencer main.c note_io.c bst.c -lm
 ```
